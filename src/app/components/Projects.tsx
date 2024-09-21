@@ -31,7 +31,7 @@ const Projects = () => {
       projectName:"Hosting Site⌛",
       description:"A landing page that has been built with Next Js and Tailwind Css and also used scss for implementation of slider",
       githubLink:"https://github.com/RoshancodeWeb/hosting-site.git",
-      liveDemo:" https://hosting-site-3f7c.vercel.app ",
+      liveDemo:"https://hosting-site-3f7c.vercel.app ",
       techUsed:["Next js","Tailwind Css"]
     },
     {
