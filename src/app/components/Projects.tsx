@@ -61,12 +61,12 @@ const Projects = () => {
           whileInView={{opacity:1,y:0}}
           transition={{duration:0.5}}
           
-         key={index} className={`project w-full pb-4 md:pb-16 h-fit md:flex ${(index+1)%2==0?"md:flex":"md:flex-row-reverse"} lg:gap-16  `}>
-            <div className='projectImage w-full md:w-[60%] h-fit  lg:w-[50%]'>
+         key={index} className={`w-full pb-4 md:pb-16 h-fit md:flex ${(index+1)%2==0?"md:flex":"md:flex-row-reverse"} lg:gap-16  `}>
+            <div className='w-full md:w-[60%] h-fit  lg:w-[50%]'>
                  <Image priority  width={"400"} height={"400"} className='object-cover md:w-[100%] md:object-fill md:h-[250px] lg:h-[300px]'   src={proj.imageLink} alt={proj.projectName} />
             </div>
 
-            <div className={`projectDetails w-full h-fit md:w-[40%]  flex flex-col lg:h-[300px] lg:justify-between gap-2`} >
+            <div className={`w-full h-fit md:w-[40%]  flex flex-col lg:h-[300px] lg:justify-between gap-2`} >
                  <p className='w-full h-fit font-bold pt-3 md:pt-0 text-center md:text-xl lg:text-2xl'>{proj.projectName}</p>
                  <p className='w-full h-fit text-center md:text-xl lg:text-2xl'>{proj.description}</p>
                  <p className='w-full h-fit font-semibold text-center lg:text-xl'>{proj.techUsed.map((value,i)=><span key={i} className='text-black ml-2 '>{value}</span>)}</p>
