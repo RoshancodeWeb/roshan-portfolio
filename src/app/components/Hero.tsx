@@ -19,10 +19,10 @@ const Hero = () => {
                 <p className='tracking-wider text-center lg:text-start'>Mern-Stack <span className='tracking-tighter block lg:inline-block'></span> Developer</p>
                </div>
                <p className='w-full text-center lg:text-start md:text-xl lg:text-2xl px-10 leading-7 md:px-52 lg:px-0 lg:pr-4'>
-                  Hi,I&apos;m Roshan Ali.A passionate Mern Stack Developer based in Lahore,Pakistan📍
+                  Hi,I&apos;m Umair Ali.A passionate Mern Stack Developer based in Lahore,Pakistan📍
                </p>
                <div className='w-full h-fit flex justify-center items-center lg:justify-start '>
-                  <a  href="/assets/CV.pdf" download="Resume-RoshanAli.pdf" >
+                  <a  href="/"  >
                     <button className='bg-blue-500 text-white px-3 py-3 font-bold  hover:rounded-md transition-all ease-linear duration-300 hover:bg-blue-700 cursor-pointer  '>
                         Download CV
                     </button>

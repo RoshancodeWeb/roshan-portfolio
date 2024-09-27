@@ -27,14 +27,6 @@ const Projects = () => {
       techUsed:["Next js","Tailwind Css"]
     },
     {
-      imageLink:"/project/projecttwo.png",
-      projectName:"Hosting Site⌛",
-      description:"A landing page that has been built with Next Js and Tailwind Css and also used scss for implementation of slider",
-      githubLink:"https://github.com/RoshancodeWeb/hosting-site.git",
-      liveDemo:"https://hosting-site-3f7c.vercel.app ",
-      techUsed:["Next js","Tailwind Css"]
-    },
-    {
       imageLink:"/project/projectthree.png",
       projectName:"Buy It💳",
       description:"Buy It allows the customers to buy anything while sitting in there homes.They can also create their wishlist and add products to cart.",

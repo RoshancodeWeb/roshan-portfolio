@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <div className="w-fit h-fit text-center md:text-start">
                 <p className="font-bold">Mail</p>
-                <Link href={"mailto:roshanail7613@gmail.com"} className="hover:text-blue-500 text-slate-400">roshanail7613@gmail.com</Link>
+                <Link href={"mailto:umairali8245@gmail.com"} className="hover:text-blue-500 text-slate-400">umairali8245@gmail.com</Link>
                 </div>
             </div>
         </div>

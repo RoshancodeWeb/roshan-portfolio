@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 
 export const metadata: Metadata = {
-  title: "Roshan Ali",
+  title: "Umair Ali",
   description: "Mern Stack Developer",
 };
 

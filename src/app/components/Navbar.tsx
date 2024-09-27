@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='w-full h-[90px]  bg-white fixed top-0 flex justify-between items-center z-40  shadow-lg  text-[#2D2E32]'>
         <div className='w-fit h-fit logo '>
-            <p className='font-bold text-xl pl-8 lg:text-2xl cursor-pointer'>Roshan.dev</p>
+            <p className='font-bold text-xl pl-8 lg:text-2xl cursor-pointer'>Umair.dev</p>
         </div>
         <div className={`menu flex flex-col absolute lg:relative w-full bg-white z-50 h-screen lg:w-fit lg:h-fit top-0 lg:flex-row text-2xl font-bold text-black ${showMenu?"translate-x-0":"-translate-x-[100%]"} lg:translate-x-0  transition-all ease-linear duration-300 `}>
             <div className='w-full h-[90px] flex justify-end items-center px-10 closeMenu lg:hidden'>
