@@ -28,11 +28,11 @@ const Projects = () => {
     },
     {
       imageLink:"/project/projecttwo.png",
-      projectName:"Hosting Site⌛",
-      description:"A landing page that has been built with Next Js and Tailwind Css and also used scss for implementation of slider",
-      githubLink:"https://github.com/RoshancodeWeb/hosting-site.git",
-      liveDemo:"https://hosting-site-3f7c.vercel.app ",
-      techUsed:["Next js","Tailwind Css"]
+      projectName:"Car Rental🚗",
+      description:"Developed a car rental platform with Next.js 14, Tailwind CSS, React Hook Form, and Resend API, featuring responsive UI, real-time form validation, and automated email confirmations for seamless bookings",
+      githubLink:"https://github.com/RoshancodeWeb/car-rent",
+      liveDemo:"https://car-rent-roshan.vercel.app/",
+      techUsed:["Next js","Tailwind Css","Resend Api","React Form Hook"]
     },
     {
       imageLink:"/project/projectthree.png",
@@ -60,13 +60,14 @@ const Projects = () => {
           initial={{opacity:0,y:50}}
           whileInView={{opacity:1,y:0}}
           transition={{duration:0.5}}
+          viewport={{once:true}}
           
-         key={index} className={`w-full pb-4 md:pb-16 h-fit md:flex ${(index+1)%2==0?"md:flex":"md:flex-row-reverse"} lg:gap-16  `}>
+         key={index} className={`w-full pb-4  md:pb-16 h-fit  md:flex ${(index+1)%2==0?"md:flex":"md:flex-row-reverse"} lg:gap-16  `}>
             <div className='w-full md:w-[60%] h-fit  lg:w-[50%]'>
                  <Image priority  width={"400"} height={"400"} className='object-cover md:w-[100%] md:object-fill md:h-[250px] lg:h-[300px]'   src={proj.imageLink} alt={proj.projectName} />
             </div>
 
-            <div className={`w-full h-fit md:w-[40%]  flex flex-col lg:h-[300px] lg:justify-between gap-2`} >
+            <div className={`w-full h-fit md:w-[40%]  flex flex-col lg:h-fit lg:justify-between gap-2`} >
                  <p className='w-full h-fit font-bold pt-3 md:pt-0 text-center md:text-xl lg:text-2xl'>{proj.projectName}</p>
                  <p className='w-full h-fit text-center md:text-xl lg:text-2xl'>{proj.description}</p>
                  <p className='w-full h-fit font-semibold text-center lg:text-xl'>{proj.techUsed.map((value,i)=><span key={i} className='text-black ml-2 '>{value}</span>)}</p>
