@@ -22,8 +22,8 @@ const Hero = () => {
                   Hi,I&apos;m Roshan Ali.A passionate Mern Stack Developer based in Lahore,Pakistan📍
                </p>
                <div className='w-full h-fit flex justify-center items-center lg:justify-start '>
-                  <a  href="/assets/CV.pdf" download="Resume-RoshanAli.pdf" >
-                    <button className='bg-blue-500 text-white px-3 py-3 font-bold  hover:rounded-md transition-all ease-linear duration-300 hover:bg-blue-700 cursor-pointer  '>
+                  <a  href="/assets/CV.pdf" target='_blank'  rel='noopener noreferrer' >
+                    <button  className='bg-blue-500 text-white px-3 py-3 font-bold  hover:rounded-md transition-all ease-linear duration-300 hover:bg-blue-700 cursor-pointer  '>
                         Download CV
                     </button>
                   </a> 

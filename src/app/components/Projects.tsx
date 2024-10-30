@@ -28,8 +28,8 @@ const Projects = () => {
     },
     {
       imageLink:"/project/projecttwo.png",
-      projectName:"Car Rental🚗",
-      description:"Developed a car rental platform with Next.js 14, Tailwind CSS, React Hook Form, and Resend API, featuring responsive UI, real-time form validation, and automated email confirmations for seamless bookings",
+      projectName:"Car Rent🚗",
+      description:"Developed a car rental platform with Next.js 14, Tailwind CSS, React Hook Form, and Resend API, featuring responsive UI, real-time form validation, and automated email confirmations for seamless bookings.",
       githubLink:"https://github.com/RoshancodeWeb/car-rent",
       liveDemo:"https://car-rent-roshan.vercel.app/",
       techUsed:["Next js","Tailwind Css","Resend Api","React Form Hook"]
